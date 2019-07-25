@@ -1,6 +1,6 @@
 {
-  "name": "Tab Peek",
-  "description": "Long press X and hold to peek previous tab",
+  "name": "Tab Toggle & Peek",
+  "description": "Long press Mouse or (Ctrl+Shift+A) and hold to peek previous tab, Press (Ctrl+Shift+A) to go to previous tab",
   "version": "1.0",
   "manifest_version": 2,
   "background": {
@@ -10,7 +10,7 @@
   "permissions" : ["tabs", "activeTab", "*://*/*"],
   "browser_action": {
     "default_icon": "images/tabFlipper16.png",
-    "default_title": "Long press X and hold to peek previous tab"
+    "default_title": "Long press Mouse or (Ctrl+Shift+A) and hold to peek previous tab, Press (Ctrl+Shift+A) to go to previous tab"
   },
   "icons": {
     "16": "images/tabFlipper16.png",
