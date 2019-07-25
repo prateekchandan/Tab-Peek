@@ -26,6 +26,9 @@ chrome.runtime.onMessage.addListener(
   function(request, sender, sendResponse) {
     isPeeking = !isPeeking;
 
+    if(request == "switch")
+      isPeeking = false;
+      
     if(last_tab_id != -1)
         chrome.tabs.update(last_tab_id, {active: true, highlighted: true});
   });
